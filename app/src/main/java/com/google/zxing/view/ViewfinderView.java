@@ -173,6 +173,7 @@ public final class ViewfinderView extends View {
     canvas.drawText(labelText, frame.left + frame.width() / 2, frame.top - CORNER_RECT_HEIGHT, paint);
   }
 
+
   //绘制边角
   private void drawCorner(Canvas canvas, Rect frame) {
     paint.setColor(cornerColor);
